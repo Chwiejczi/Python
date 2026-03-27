@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "python1course"
+version = "0.1.1"
+requires-python = ">=3.12"
+description = "Pakiet z kodem z zajęć Python 1"
+authors = [
+    { name = "Jakub Chwiejczak", email = "jchwiejczak@student.agh.edu.pl" }
+]
+dependencies = [
+    "numpy",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "ruff",
+    "pre-commit",
+    "build",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["python1course*"]
+
+# Konfiguracja ruff
+[tool.ruff]
+line-length = 88
+
+[tool.ruff.lint]
+select = ["E", "W", "F", "I", "B", "C4", "UP", "ARG", "SIM", "TCH", "PTH", "RUF"]
+ignore = ["F403", "F405"]
+
+[tool.ruff.lint.isort]
+known-first-party = ["python1course"]

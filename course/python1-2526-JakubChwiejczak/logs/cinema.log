@@ -1,0 +1,16 @@
+2025-12-21 20:03:53,463 -__main__ -DEBUG - stworzono salê
+2025-12-21 20:03:53,464 -__main__ -INFO - wszystko przebieglo poprawnie
+2025-12-21 20:03:53,464 -__main__ -WARNING - user ma rezerwacje
+2025-12-21 21:41:50,171 -__main__ -DEBUG - stworzono salê
+2025-12-21 21:41:50,172 -__main__ -INFO - wszystko przebieglo poprawnie
+2025-12-21 21:41:50,172 -__main__ -WARNING - user ma rezerwacje
+2025-12-21 21:41:50,172 -__main__ -INFO - miejsce odwolane
+2025-12-21 21:47:01,497 -__main__ -DEBUG - stworzono salê
+2025-12-21 21:47:01,497 -__main__ -INFO - wszystko przebieglo poprawnie
+2025-12-21 21:47:01,498 -__main__ -WARNING - user ma rezerwacje
+2025-12-21 21:47:01,498 -__main__ -INFO - miejsce odwolane
+2025-12-21 21:47:36,934 -__main__ -DEBUG - stworzono salê
+2025-12-21 21:47:36,943 -__main__ -INFO - wszystko przebieglo poprawnie
+2025-12-21 21:47:36,943 -__main__ -ERROR - user ma rezerwacje
+NoneType: None
+2025-12-21 21:47:36,944 -__main__ -INFO - miejsce odwolane

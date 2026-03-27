@@ -1,0 +1,17 @@
+name: python1course-env
+category: dev
+platforms:
+  - linux-64
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - jupyter
+  - ipykernel
+  - pytest 
+  - ruff 
+  - pre-commit
+# ... istniejące zależności ...
+  - pip
+  - pip:
+    - build
